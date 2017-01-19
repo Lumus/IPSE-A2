@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (3.4.1)
+  - ARChromeActivity (1.0.6)
+  - MGSwipeTableCell (1.5.5)
+  - SwiftyJSON (2.3.2)
+  - TUSafariActivity (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - ARChromeActivity (~> 1.0.6)
+  - MGSwipeTableCell (~> 1.5.5)
+  - SwiftyJSON (~> 2.3)
+  - TUSafariActivity (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  ARChromeActivity: 5dcf9b9f09323761f992aff3525cdd777f83609d
+  MGSwipeTableCell: bafeb5f351124544c9364ecbdf24c7b06a37d340
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+
+PODFILE CHECKSUM: 886382e00756ce574e810603c6f936176e92c046
+
+COCOAPODS: 1.0.0

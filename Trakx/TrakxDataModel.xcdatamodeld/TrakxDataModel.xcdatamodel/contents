@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="FavouriteLineType" representedClassName=".FavouriteLineType" syncable="YES">
+        <attribute name="lineID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="favouriteStops" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteStop" inverseName="lineType" inverseEntity="FavouriteStop" syncable="YES"/>
+    </entity>
+    <entity name="FavouriteStop" representedClassName=".FavouriteStop" syncable="YES">
+        <attribute name="locationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stopID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="stopObject" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="lineType" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FavouriteLineType" inverseName="favouriteStops" inverseEntity="FavouriteLineType" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FavouriteLineType" positionX="180" positionY="68" width="128" height="88"/>
+        <element name="FavouriteStop" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>
